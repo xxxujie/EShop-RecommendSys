@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    username: root
+    password: M-992212.Schuco
+    url: jdbc:mysql://192.168.134.200:3306/aneuzon?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+  redis:
+    host: 192.168.134.200
+    port: 6379
+    timeout: 5000
+
+
+# 原本的 mybatis 核心配置在这里配
+mybatis:
+  # 别名
+  type-aliases-package: com.lightfall.eshop.pojo
+  # mapper 配置文件
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  # 开启驼峰命名映射
+  configuration:
+    map-underscore-to-camel-case: true
+

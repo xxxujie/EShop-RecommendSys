@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lightfall.eshop.dao.BookMapper">
+
+    <select id="getAllBooks" resultType="book">
+        select * from aneuzon.book
+    </select>
+    <select id="getBookById" parameterType="_int" resultType="book">
+        select * from aneuzon.book b where b.book_id=#{bookId}
+    </select>
+    <select id="getBooksInPage" parameterType="map" resultType="book">
+        select * from aneuzon.book b limit #{startId}, #{pageSize}
+    </select>
+    <select id="getBooksCount" resultType="_int">
+        select count(*) from aneuzon.book
+    </select>
+    <select id="selectCategoryInPage" resultType="book">
+        select * from aneuzon.book b where b.category=#{category} limit #{startId}, #{pageSize}
+    </select>
+    <select id="getCategoryName" parameterType="_int" resultType="string">
+        select c.category_name from aneuzon.category c where c.category_id=#{category}
+    </select>
+    <select id="getSelectCount" parameterType="_int" resultType="_int">
+        select count(*) from aneuzon.book b where b.category=#{category}
+    </select>
+    <select id="searchBook" parameterType="string" resultType="book">
+        select * from aneuzon.book b where b.book_name like #{bookName}
+    </select>
+</mapper>
