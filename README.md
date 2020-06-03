@@ -2,7 +2,7 @@
 
 >  课上大作业
 
-BookEShop 是 Web 端。使用了 SpringBoot，Mybatis 做持久层框架，Thymeleaf 做模板引擎。
+BookEShop 是 Web 端。基于 SpringBoot，使用 Mybatis 做持久层框架，Thymeleaf 做模板引擎。
 
 RecommendSystem 是推荐系统。
 

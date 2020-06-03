@@ -45,7 +45,7 @@ object StatisticsRecommend {
             .load().toDF()
 
         ratingDF.createOrReplaceTempView("ratings")
-        ratingDF.show()
+        ratingDF.show(20)
 
         // TODO: 用 spark sql 去做不同的统计
         // 1. 历史热门商品，按照评分个数统计

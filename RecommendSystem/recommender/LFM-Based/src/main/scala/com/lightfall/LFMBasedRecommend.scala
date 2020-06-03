@@ -5,7 +5,6 @@ import java.util.Properties
 
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.{DataFrame, SaveMode, SparkSession}
-//import org.apache.spark.mllib._
 import org.apache.spark.mllib.recommendation.{ALS, Rating}
 import scala.math.BigDecimal
 
