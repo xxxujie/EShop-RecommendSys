@@ -60,6 +60,7 @@ object Application {
               |""".stripMargin
         ).cache()
 
+        var cnt = 0;
         // 6. 计算得到同现相似度表
         val simDF = concurDF.map {
             row =>
@@ -69,7 +70,10 @@ object Application {
         }
             .filter(row => row._1 != row._2)
             .filter(row => row._3.doubleValue() > 0.4)
-            .toDF(TableConfig.ConcurSimTable.FIELD_PRODUCT_ID_1,
+            .rdd.zipWithIndex() // 加一列自增 id
+            .map {
+                row => (row._2, row._1._1, row._1._2, row._1._3)
+            }.toDF(TableConfig.ConcurSimTable.FIELD_ID, TableConfig.ConcurSimTable.FIELD_PRODUCT_ID_1,
                 TableConfig.ConcurSimTable.FIELD_PRODUCT_ID_2, TableConfig.ConcurSimTable.FIELD_SIM_SCORE)
         // 将 simDF 覆写进 hive
         DataUtils.storeDFInHive(simDF, TableConfig.ConcurSimTable.TABLE_NAME, SaveMode.Overwrite)

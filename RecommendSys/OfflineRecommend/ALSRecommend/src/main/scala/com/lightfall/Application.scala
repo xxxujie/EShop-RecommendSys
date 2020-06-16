@@ -42,7 +42,7 @@ object Application {
         val preRatingRDD = getPredictMatrix(model, userRDD, bookRDD)
 
         // 3. 从预测评分矩阵中提取用户的推荐列表
-        val preSchemas = Seq(TableConfig.UserRecsTable.FIELD_USER_ID,
+        val preSchemas = Seq(TableConfig.UserRecsTable.FIELD_ID, TableConfig.UserRecsTable.FIELD_USER_ID,
             TableConfig.UserRecsTable.FIELD_PRODUCT_ID, TableConfig.UserRecsTable.FIELD_REC_SCORE)
         val userRecs = getUserRecs(spark, preRatingRDD, preSchemas)
         // 把推荐列表覆盖写入 hive
@@ -103,7 +103,10 @@ object Application {
         preRatingRDD.filter(_.rating > 0)
             .map (
                 row => (row.user, row.product, BigDecimal(row.rating))
-            ).toDF(schemas: _*)
+            ).zipWithIndex() // 增加一列自增 id
+            .map {
+                row => (row._2, row._1._1, row._1._2, row._1._3)
+            }.toDF(schemas: _*)
     }
 
     /**

@@ -21,9 +21,9 @@ object TableConfig {
      * 用户个性化推荐表
      */
     object UserRecsTable {
-        //val TABLE_NAME = "aneuzon.user_recs"
-        val TABLE_NAME = "eshop.user_recs"
+        val TABLE_NAME = "aneuzon.user_recs"
 
+        val FIELD_ID = "recs_id" // 主键 -> int
         val FIELD_USER_ID = "user_id" // 用户 id -> int
         val FIELD_PRODUCT_ID = "book_id" // 商品 id -> int
         val FIELD_REC_SCORE = "rec_score" // 推荐度 -> decimal
@@ -33,7 +33,7 @@ object TableConfig {
      * 商品余弦相似度表
      */
     object CosSimTable {
-        val TABLE_NAME = "eshop.cos_sim"
+        val TABLE_NAME = "aneuzon.cos_sim"
 
         val FIELD_PRODUCT_ID_1 = "book_id_1" // 商品1 id -> int
         val FIELD_PRODUCT_ID_2 = "book_id_2" // 商品2 id -> int

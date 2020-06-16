@@ -1,0 +1,91 @@
+2020-06-16 20:30:59 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 13320 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-16 20:30:59 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-16 20:31:00 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-16 20:31:00 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-16 20:31:00 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-06-16 20:31:00 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-16 20:31:00 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-16 20:31:00 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-16 20:31:00 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-16 20:31:00 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-16 20:31:00 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-16 20:31:00 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-16 20:31:00 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-16 20:31:00 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-16 20:31:00 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 896 ms
+2020-06-16 20:31:00 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 20:31:01 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-16 20:31:01 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-16 20:31:01 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-16 20:31:01 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 20:31:01 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.771 seconds (JVM running for 2.216)
+2020-06-16 20:31:07 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 20:31:07 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-16 20:31:07 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-16 20:31:19 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-16 20:31:19 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-16 20:31:21 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" Holden Karau / Andy Konwinski / Patrick Wendell / Matei Zaharia ","price":39.99,"publisher":"  O'Reilly Media ","category":1,"bookName":"Learning Spark","bookId":3258},"username":"root"}
+2020-06-16 20:31:21 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" 高彦杰 ","price":59.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"Spark大数据处理：技术、应用与性能优化","bookId":3384},"username":"root"}
+2020-06-16 20:31:21 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" 夏俊鸾 / 刘旭晖 / 邵赛赛 / 程浩 / 史鸣飞 / 黄洁 ","price":65.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"Spark大数据处理技术","bookId":3525},"username":"root"}
+2020-06-16 20:31:21 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" （美）Holden Karau / 余璜 / 张磊 ","price":29.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"Spark快速数据处理","bookId":6517},"username":"root"}
+2020-06-16 20:31:21 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" Nicholas Sparks ","price":23.48,"publisher":"  Warner Books ","category":4,"bookName":"Nicholas Sparks Love Stories Three-Book Set (A Bend In the Road, The Rescue, Message in a Bottle)","bookId":92705},"username":"root"}
+2020-06-16 20:31:39 [http-nio-8080-exec-4] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"username":"root"}
+2020-06-16 20:31:39 [http-nio-8080-exec-4] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"root"}
+2020-06-16 20:31:39 [http-nio-8080-exec-4] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"root"}
+2020-06-16 20:32:30 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 14436 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-16 20:32:30 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-16 20:32:31 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-16 20:32:31 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-16 20:32:31 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-06-16 20:32:31 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-16 20:32:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-16 20:32:31 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-16 20:32:31 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-16 20:32:31 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-16 20:32:31 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-16 20:32:31 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-16 20:32:31 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-16 20:32:31 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-16 20:32:31 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 832 ms
+2020-06-16 20:32:31 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 20:32:31 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-16 20:32:31 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-16 20:32:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-16 20:32:31 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 20:32:31 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.68 seconds (JVM running for 2.118)
+2020-06-16 20:32:34 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 20:32:34 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-16 20:32:34 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-16 20:32:36 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-16 20:32:37 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-16 20:32:42 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"root"}
+2020-06-16 20:32:42 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"root"}
+2020-06-16 20:33:17 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 240 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-16 20:33:17 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-16 20:33:18 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-16 20:33:18 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-16 20:33:18 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-06-16 20:33:18 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-16 20:33:18 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-16 20:33:18 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-16 20:33:18 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-16 20:33:18 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-16 20:33:18 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-16 20:33:18 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-16 20:33:18 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-16 20:33:18 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-16 20:33:18 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 808 ms
+2020-06-16 20:33:18 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-16 20:33:18 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-16 20:33:18 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-16 20:33:19 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-16 20:33:19 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-16 20:33:19 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.688 seconds (JVM running for 2.117)
+2020-06-16 20:33:20 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-16 20:33:20 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-16 20:33:20 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-16 20:33:22 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-16 20:33:23 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-16 20:33:24 [http-nio-8080-exec-5] INFO  userAction - {"data":{"author":" Holden Karau / Andy Konwinski / Patrick Wendell / Matei Zaharia ","price":39.99,"publisher":"  O'Reilly Media ","category":1,"bookName":"Learning Spark","bookId":3258},"type":"search","username":"root"}
+2020-06-16 20:33:24 [http-nio-8080-exec-5] INFO  userAction - {"data":{"author":" 夏俊鸾 / 刘旭晖 / 邵赛赛 / 程浩 / 史鸣飞 / 黄洁 ","price":65.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"Spark大数据处理技术","bookId":3525},"type":"search","username":"root"}
+2020-06-16 20:33:24 [http-nio-8080-exec-5] INFO  userAction - {"data":{"author":" （美）Holden Karau / 余璜 / 张磊 ","price":29.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"Spark快速数据处理","bookId":6517},"type":"search","username":"root"}

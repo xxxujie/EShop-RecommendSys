@@ -1,11 +1,13 @@
 package com.lightfall.eshop.controller;
 
 import com.lightfall.eshop.pojo.Book;
+import com.lightfall.eshop.pojo.LogData;
 import com.lightfall.eshop.pojo.Rating;
 import com.lightfall.eshop.service.BookService;
 import com.lightfall.eshop.service.RatingService;
 import com.lightfall.eshop.service.RecommendService;
 import com.lightfall.eshop.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -50,12 +52,12 @@ public class RatingController {
             int userId = userService.getUserIdByUserName(userInfo);
             Rating rating = new Rating(userId, bookId, score);
 
-            if(ratingService.isRated(rating)) { // 如果评价过，就更新
-                ratingService.updateRating(rating);
-            } else { // 没有评价过，就加上
+            if(ratingService.isRated(rating)) { // 评价过不能再评价
+                modelAndView.addObject("ratingMsg", "你评价过这本书了！");
+            } else { // 没有评价过，就插入表
                 ratingService.addRating(rating);
+                modelAndView.addObject("ratingMsg", "评价成功");
             }
-            modelAndView.addObject("ratingMsg", "评价成功");
         }
         // 这里用转发，因为还需要原来的信息
         modelAndView.setViewName("forward:/book/detail/"+bookId);
