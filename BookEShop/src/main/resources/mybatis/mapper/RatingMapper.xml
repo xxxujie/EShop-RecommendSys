@@ -4,8 +4,15 @@
                 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.lightfall.eshop.dao.RatingMapper">
-<insert id="addRating" parameterType="rating">
+    <insert id="addRating" parameterType="rating">
         insert into aneuzon.rating(user_id, book_id, rating)
         values (#{userId}, #{bookId}, #{rating})
     </insert>
+    <select id="checkRating" parameterType="rating" resultType="rating">
+        select * from aneuzon.rating r where r.user_id=#{userId} and r.book_id=#{bookId}
+    </select>
+    <update id="updateRating" parameterType="rating">
+        update aneuzon.rating r set r.rating=#{rating}
+        where r.user_id=#{userId} and r.book_id=#{bookId}
+    </update>
 </mapper>

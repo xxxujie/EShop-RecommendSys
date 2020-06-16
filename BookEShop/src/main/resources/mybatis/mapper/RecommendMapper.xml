@@ -6,8 +6,29 @@
 <mapper namespace="com.lightfall.eshop.dao.RecommendMapper">
     <select id="getRankList" resultType="book">
         select b.* from aneuzon.avg_rating a, aneuzon.book b where a.book_id=b.book_id order by a.avg_rating desc
+        limit 100
     </select>
     <select id="getAvgRating" parameterType="_int" resultType="decimal">
         select a.avg_rating from aneuzon.avg_rating a where a.book_id=#{book_id}
+    </select>
+    <select id="getHotList" resultType="book">
+        select b.* from aneuzon.hot h, aneuzon.book b where h.book_id=b.book_id order by h.rating_count desc
+        limit 20
+    </select>
+    <select id="getHotRecent" resultType="book">
+        select b.* from aneuzon.hot_recent h, aneuzon.book b where h.book_id=b.book_id order by h.rating_count desc, h.rating_time desc
+        limit 20
+    </select>
+    <select id="getUserRecs" parameterType="_int" resultType="book">
+        select b.* from aneuzon.user_recs r, aneuzon.book b
+        where r.user_id=#{userId} and r.book_id=b.book_id
+        order by r.rec_score desc
+        limit 20
+    </select>
+    <select id="getConcurSimRecs" parameterType="_int" resultType="book">
+        select b.* from aneuzon.concur_sim c, aneuzon.book b
+        where c.book_id_1=#{bookId} and b.book_id=c.book_id_2
+        order by c.sim_score desc
+        limit 10
     </select>
 </mapper>

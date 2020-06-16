@@ -2,6 +2,7 @@ package com.lightfall.eshop.service.impls;
 
 import com.lightfall.eshop.dao.RecommendMapper;
 import com.lightfall.eshop.pojo.Book;
+import com.lightfall.eshop.pojo.Rating;
 import com.lightfall.eshop.service.RecommendService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -32,5 +33,25 @@ public class RecommendServiceImpl implements RecommendService {
             result.put(bookId, avgRating);
         }
         return result;
+    }
+
+    // 获得历史热门图书
+    public List<Book> getHotList() {
+        return recommendMapper.getHotList();
+    }
+
+    // 获得当下热门图书
+    public List<Book> getHotRecent() {
+        return recommendMapper.getHotRecent();
+    }
+
+    // 获得用户个性化推荐列表
+    public List<Book> getUserRecs(int userId) {
+        return recommendMapper.getUserRecs(userId);
+    }
+
+    // 获得同现相似的推荐图书
+    public List<Book> getConcurSimRecs(int bookId) {
+        return recommendMapper.getConcurSimRecs(bookId);
     }
 }

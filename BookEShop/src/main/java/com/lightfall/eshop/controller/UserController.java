@@ -53,6 +53,8 @@ public class UserController {
             // String nickName = userService.getNickNameByUserName(username);
             // 给 Session 加一条记录用于保存登录状态
             session.setAttribute("userInfo", username);
+            int userId = userService.getUserIdByUserName(username);
+            session.setAttribute("userId", userId);
             modelAndView.setViewName("redirect:/index");
             return modelAndView;
         }
@@ -69,6 +71,7 @@ public class UserController {
     public String logoutAction(HttpServletRequest request) {
         HttpSession session = request.getSession();
         session.removeAttribute("userInfo");
+        session.removeAttribute("userId");
         return "redirect:/index";
     }
 

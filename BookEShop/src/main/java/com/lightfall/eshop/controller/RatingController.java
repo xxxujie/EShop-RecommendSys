@@ -1,7 +1,10 @@
 package com.lightfall.eshop.controller;
 
+import com.lightfall.eshop.pojo.Book;
 import com.lightfall.eshop.pojo.Rating;
+import com.lightfall.eshop.service.BookService;
 import com.lightfall.eshop.service.RatingService;
+import com.lightfall.eshop.service.RecommendService;
 import com.lightfall.eshop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,6 +15,9 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/rating")
@@ -21,6 +27,10 @@ public class RatingController {
     RatingService ratingService;
     @Autowired
     UserService userService;
+    @Autowired
+    BookService bookService;
+    @Autowired
+    RecommendService recommendService;
 
     @RequestMapping("/addRating")
     public ModelAndView addRating(@RequestParam("score") BigDecimal score,
@@ -36,20 +46,18 @@ public class RatingController {
         double v = score.doubleValue();
         if(v < 0 || v > 10) {
             modelAndView.addObject("ratingMsg", "请输入 0-10 之间的数字！");
-            modelAndView.setViewName("book");
         } else {
             int userId = userService.getUserIdByUserName(userInfo);
             Rating rating = new Rating(userId, bookId, score);
-            try {
+
+            if(ratingService.isRated(rating)) { // 如果评价过，就更新
+                ratingService.updateRating(rating);
+            } else { // 没有评价过，就加上
                 ratingService.addRating(rating);
-            } catch (Exception e) {
-                e.getStackTrace();
-                modelAndView.addObject("ratingMsg", "你已经评价过这本书了！");
-                modelAndView.setViewName("forward:/book/detail/"+bookId);
-                return modelAndView;
             }
             modelAndView.addObject("ratingMsg", "评价成功");
         }
+        // 这里用转发，因为还需要原来的信息
         modelAndView.setViewName("forward:/book/detail/"+bookId);
         return modelAndView;
     }

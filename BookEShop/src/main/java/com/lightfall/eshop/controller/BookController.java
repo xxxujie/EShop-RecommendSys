@@ -13,6 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -38,8 +39,16 @@ public class BookController {
 
         // 通过 id 获取图书信息
         Book book = bookService.getBookById(bookId);
+        List<Book> books = new ArrayList<>();
+        // 得到书的评分
+        books.add(book);
+        Map<Integer, BigDecimal> avgRating = recommendService.getAvgRating(books);
+        // 同现相似的图书，推荐给用户
+        List<Book> concurSimRecs = recommendService.getConcurSimRecs(bookId);
 
         model.addAttribute("book", book);
+        model.addAttribute("rating", avgRating);
+        model.addAttribute("concurSimRecs", concurSimRecs);
         return "bookDetail";
     }
 

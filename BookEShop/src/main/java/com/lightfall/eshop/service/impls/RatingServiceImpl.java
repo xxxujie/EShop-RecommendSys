@@ -16,4 +16,19 @@ public class RatingServiceImpl implements RatingService {
     public int addRating(Rating rating) {
         return ratingMapper.addRating(rating);
     }
+
+    // 更新一条 Rating
+    public int updateRating(Rating rating) {
+        return ratingMapper.updateRating(rating);
+    }
+
+    // 查询用户是否已经评分过
+    public boolean isRated(Rating rating) {
+        Rating check = ratingMapper.checkRating(rating);
+        if(check == null ) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 }

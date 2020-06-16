@@ -20,6 +20,7 @@
                 <li><a href="/index">首页</a></li>
                 <li><a href="/book/bookList/0/0">书单</a></li>
                 <li><a href="/recommend/rank">排行</a></li>
+                <li><a href="/recommend/hot">热门</a></li>
                 <li class="dropdown pull-right">
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle">我的<strong class="caret"></strong></a>
                     <ul class="dropdown-menu">
@@ -85,7 +86,6 @@
                     <th>价格</th>
 <!--                    <th>评价</th>-->
                     <th>作者</th>
-                    <th>出版日期</th>
                 </tr>
                 </thead>
                 <tbody th:each="book:${bookList}">
@@ -94,7 +94,6 @@
                     <td th:text="${book.price}"></td>
 <!--                    <td th:text="${book.rating}"></td>-->
                     <td th:text="${book.author}"></td>
-                    <th th:text="${#dates.format(book.publishDate, 'yyyy-mm-dd')}"></th>
                 </tr>
                 </tbody>
             </table>

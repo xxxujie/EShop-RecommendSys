@@ -20,6 +20,7 @@
                 <li><a href="/index">首页</a></li>
                 <li><a href="/book/bookList/0/0">书单</a></li>
                 <li class="active"><a href="/recommend/rank">排行</a></li>
+                <li><a href="/recommend/hot">热门</a></li>
                 <li class="dropdown pull-right">
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle">我的<strong class="caret"></strong></a>
                     <ul class="dropdown-menu">
@@ -45,7 +46,7 @@
                 <h4>※精选评分前百好书※</h4>
                 <br/>
                 <div>
-                    <button class="btn" type="button"><a href="#">帮我推荐！</a></button>
+                    <button class="btn" type="button"><a href="/recommend/userRecs">帮我推荐！</a></button>
                 </div>
                 <br/><br/><br/>
             </center>
@@ -66,8 +67,8 @@
                     <!--                    <td th:text="${i}"></td>-->
                     <td><a th:href="'/book/detail/'+${book.bookId}" th:text="${book.bookName}"></a></td>
                     <td th:text="${book.price}"></td>
-                    <!-- setScale(2) 代表保留两位小数 -->
-                    <td th:text="${ratingMap.get(book.bookId).setScale(2)}"></td>
+                    <!-- setScale(2, 4) 代表保留两位小数, 4 的意思是 HALF_UP，即向上舍入 -->
+                    <td th:text="${ratingMap.get(book.bookId).setScale(2, 4)}"></td>
                     <td th:text="${book.author}"></td>
                     <!--                    <th th:text="${#dates.format(book.publishDate, 'yyyy-mm-dd')}"></th>-->
                 </tr>

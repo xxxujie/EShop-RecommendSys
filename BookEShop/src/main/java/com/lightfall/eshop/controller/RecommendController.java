@@ -20,8 +20,9 @@ public class RecommendController {
     @Autowired
     private RecommendService recommendService;
 
+    // 图书排行
     @RequestMapping("/rank")
-    public ModelAndView Rank(HttpServletRequest request) {
+    public ModelAndView rank(HttpServletRequest request) {
         ModelAndView modelAndView = new ModelAndView();
         // 登录信息
         HttpSession session = request.getSession();
@@ -35,6 +36,45 @@ public class RecommendController {
         modelAndView.addObject("ratingMap", ratingMap);
         modelAndView.addObject("bookList", rankList);
         modelAndView.setViewName("rank");
+
+        return modelAndView;
+    }
+
+    // 热门图书
+    @RequestMapping("/hot")
+    public ModelAndView hot(HttpServletRequest request) {
+        ModelAndView modelAndView = new ModelAndView();
+        // 登录信息
+        HttpSession session = request.getSession();
+        String userInfo = (String) session.getAttribute("userInfo");
+        modelAndView.addObject("userInfo", userInfo);
+
+        List<Book> hotList = recommendService.getHotList();
+        List<Book> hotRecent = recommendService.getHotRecent();
+
+        modelAndView.addObject("hotList", hotList);
+        modelAndView.addObject("hotRecent", hotRecent);
+
+        modelAndView.setViewName("hot");
+
+        return modelAndView;
+    }
+
+    // 用户个性化推荐
+    @RequestMapping("/userRecs")
+    public ModelAndView userRecs(HttpServletRequest request) {
+        ModelAndView modelAndView = new ModelAndView();
+        // 登录信息
+        HttpSession session = request.getSession();
+        String userInfo = (String) session.getAttribute("userInfo");
+        modelAndView.addObject("userInfo", userInfo);
+
+        // 获得推荐列表
+        int userId = (int) session.getAttribute("userId");
+        List<Book> userRecs = recommendService.getUserRecs(userId);
+
+        modelAndView.addObject("userRecs", userRecs);
+        modelAndView.setViewName("userRecs");
 
         return modelAndView;
     }
