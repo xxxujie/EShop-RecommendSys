@@ -70,9 +70,9 @@
                             </form>
                         </div>
                         <br/><br/>
-                        <div>
-                            <button class="btn" type="button"><a href="#" th:text="加入收藏"></a></button>
-                        </div>
+<!--                        <div>-->
+<!--                            <button class="btn" type="button"><a href="#" th:text="加入收藏"></a></button>-->
+<!--                        </div>-->
                     </div>
                 </center>
                 <div class="col-md-6">
@@ -98,7 +98,7 @@
                     <h1 th:text="'￥'+${#numbers.formatDecimal(book.price, 1, 'COMMA', 2, 'POINT')}"></h1>
                     <br/>
                     <div style="margin-left: 30px">
-                        <a class="btn btn-warning btn-large" href="#">立即购买！</a>
+                        <a class="btn btn-warning btn-large" th:href="'/book/orderAction/'+${book.bookId}">立即购买！</a>
                     </div>
                 </div>
             </div>

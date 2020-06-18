@@ -9,11 +9,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+import sun.net.www.http.Hurryable;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -43,6 +45,9 @@ public class BookController {
         // 得到书的评分
         books.add(book);
         Map<Integer, BigDecimal> avgRating = recommendService.getAvgRating(books);
+        if(avgRating.get(bookId) == null) {
+            avgRating.put(bookId, new BigDecimal(0.000));
+        }
         // 同现相似的图书，推荐给用户
         List<Book> concurSimRecs = recommendService.getConcurSimRecs(bookId);
 
@@ -64,11 +69,11 @@ public class BookController {
 
         List<Book> books;
         // 根据传来的类别获得相应的图书
-        if(categoryId == 0) { // 0 代表全部图书
+        if (categoryId == 0) { // 0 代表全部图书
             books = bookService.getBooksInPage(pageNum * pageSize, pageSize);
             // 得到所有图书数量，用来计算最大页数
             int maxCounts = bookService.getBooksCount();
-            Integer maxPages = maxCounts/pageSize;
+            Integer maxPages = maxCounts / pageSize;
             modelAndView.addObject("maxPages", maxPages);
         } else {
             books = bookService.selectCategoryInPage(categoryId, pageNum * pageSize, pageSize);
@@ -78,7 +83,7 @@ public class BookController {
             modelAndView.addObject("categoryId", categoryId);
             // 得到该类图书的数量，用来计算最大页数
             int maxCounts = bookService.getSelectCount(categoryId);
-            Integer maxPages = maxCounts/pageSize;
+            Integer maxPages = maxCounts / pageSize;
             modelAndView.addObject("maxPages", maxPages);
         }
         // 得到 bookId 和评价的 Map
@@ -90,6 +95,24 @@ public class BookController {
         modelAndView.addObject("pageNum", pageNum);
 
         modelAndView.setViewName("bookList");
+        return modelAndView;
+    }
+
+    @RequestMapping("orderAction/{bookId:[0-9]+}")
+    public ModelAndView orderAction(HttpServletRequest request,
+                                    @PathVariable("bookId") int bookId) {
+        ModelAndView modelAndView = new ModelAndView();
+        // 登录信息
+        HttpSession session = request.getSession();
+        String userInfo = (String) session.getAttribute("userInfo");
+        modelAndView.addObject("userInfo", userInfo);
+
+        // 同现相似的图书，推荐给用户
+        List<Book> concurSimRecs = recommendService.getConcurSimRecs(bookId);
+        modelAndView.addObject("concurSimRecs", concurSimRecs);
+
+        modelAndView.setViewName("order");
+
         return modelAndView;
     }
 }

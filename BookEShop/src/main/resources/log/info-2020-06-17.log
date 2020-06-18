@@ -1,0 +1,371 @@
+2020-06-17 02:59:00 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 9580 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 02:59:00 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 02:59:00 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 02:59:00 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 02:59:00 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-06-17 02:59:01 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 02:59:01 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 02:59:01 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 02:59:01 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 02:59:01 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 02:59:01 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 02:59:01 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 02:59:01 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 02:59:01 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 02:59:01 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1151 ms
+2020-06-17 02:59:01 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 02:59:01 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 02:59:01 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 02:59:01 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 02:59:01 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 02:59:01 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 2.146 seconds (JVM running for 2.648)
+2020-06-17 02:59:07 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 02:59:07 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 02:59:07 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-06-17 02:59:12 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 02:59:12 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 03:06:13 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 6184 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 03:06:13 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 03:06:14 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 03:06:14 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 03:06:14 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-06-17 03:06:14 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 03:06:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 03:06:14 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 03:06:14 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 03:06:14 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 03:06:14 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 03:06:14 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 03:06:14 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 03:06:14 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 03:06:14 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 844 ms
+2020-06-17 03:06:14 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 03:06:14 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 03:06:14 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 03:06:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 03:06:14 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 03:06:14 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.687 seconds (JVM running for 2.119)
+2020-06-17 03:06:19 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 03:06:19 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 03:06:19 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-17 03:06:24 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 03:06:24 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 03:17:07 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 10680 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 03:17:07 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 03:17:07 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 03:17:07 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 03:17:07 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-06-17 03:17:07 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 03:17:07 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 03:17:07 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 03:17:07 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 03:17:07 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 03:17:07 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 03:17:07 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 03:17:07 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 03:17:08 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 03:17:08 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 869 ms
+2020-06-17 03:17:08 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 03:17:08 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 03:17:08 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 03:17:08 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 03:17:08 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 03:17:08 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.733 seconds (JVM running for 2.197)
+2020-06-17 03:17:21 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 03:17:21 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 03:17:21 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-17 03:17:23 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 03:17:24 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 15:42:41 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 6272 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 15:42:41 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 15:42:41 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 15:42:41 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 15:42:41 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-06-17 15:42:42 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 15:42:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 15:42:42 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 15:42:42 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 15:42:42 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 15:42:42 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 15:42:42 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 15:42:42 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 15:42:42 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 15:42:42 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1255 ms
+2020-06-17 15:42:42 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:42:42 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 15:42:42 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 15:42:43 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 15:42:43 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 15:42:43 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 2.282 seconds (JVM running for 2.914)
+2020-06-17 15:42:59 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 15:42:59 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 15:42:59 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-17 15:43:04 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 15:43:05 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 15:43:11 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"lightfall"}
+2020-06-17 15:43:11 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"lightfall"}
+2020-06-17 15:43:11 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"lightfall"}
+2020-06-17 15:48:55 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 12756 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 15:48:55 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 15:48:55 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 15:48:55 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 15:48:55 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-06-17 15:48:55 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 15:48:55 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 15:48:55 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 15:48:55 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 15:48:55 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 15:48:55 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 15:48:55 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 15:48:55 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 15:48:55 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 15:48:55 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 822 ms
+2020-06-17 15:48:56 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:48:56 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 15:48:56 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 15:48:56 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 15:48:56 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 15:48:56 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.686 seconds (JVM running for 2.135)
+2020-06-17 15:49:00 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 15:49:00 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 15:49:00 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-17 15:49:07 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 15:49:07 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 15:49:13 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"lightfall"}
+2020-06-17 15:49:13 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"lightfall"}
+2020-06-17 15:49:13 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"lightfall"}
+2020-06-17 15:59:24 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 2164 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 15:59:24 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 15:59:24 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 15:59:24 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 15:59:24 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-06-17 15:59:25 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 15:59:25 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 15:59:25 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 15:59:25 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 15:59:25 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 15:59:25 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 15:59:25 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 15:59:25 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 15:59:25 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 15:59:25 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 924 ms
+2020-06-17 15:59:25 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:59:25 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 15:59:25 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 15:59:25 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 15:59:26 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 15:59:26 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.857 seconds (JVM running for 2.315)
+2020-06-17 15:59:36 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 15:59:36 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 15:59:36 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-06-17 15:59:41 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 15:59:42 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 15:59:50 [http-nio-8080-exec-4] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"lightfall"}
+2020-06-17 15:59:50 [http-nio-8080-exec-4] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"lightfall"}
+2020-06-17 15:59:50 [http-nio-8080-exec-4] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"lightfall"}
+2020-06-17 16:00:17 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 13156 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 16:00:17 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 16:00:17 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 16:00:17 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 16:00:17 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-06-17 16:00:18 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 16:00:18 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:00:18 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 16:00:18 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 16:00:18 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 16:00:18 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 16:00:18 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 16:00:18 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 16:00:18 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 16:00:18 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 822 ms
+2020-06-17 16:00:18 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 16:00:18 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 16:00:18 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 16:00:18 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:00:18 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 16:00:18 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.698 seconds (JVM running for 2.137)
+2020-06-17 16:00:19 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 16:00:19 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 16:00:19 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-17 16:00:23 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 16:00:23 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 16:00:25 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"root"}
+2020-06-17 16:00:25 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"root"}
+2020-06-17 16:00:25 [http-nio-8080-exec-10] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"root"}
+2020-06-17 16:01:29 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 11340 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 16:01:29 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 16:01:30 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 16:01:30 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 16:01:30 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-06-17 16:01:30 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 16:01:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:01:30 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 16:01:30 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 16:01:30 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 16:01:30 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 16:01:30 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 16:01:30 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 16:01:30 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 16:01:30 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 805 ms
+2020-06-17 16:01:30 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 16:01:30 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 16:01:30 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 16:01:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:01:30 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 16:01:31 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.685 seconds (JVM running for 3.12)
+2020-06-17 16:01:32 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 16:01:32 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 16:01:32 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-17 16:01:37 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 16:01:37 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 16:01:44 [http-nio-8080-exec-5] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"lightfall"}
+2020-06-17 16:01:44 [http-nio-8080-exec-5] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"lightfall"}
+2020-06-17 16:01:44 [http-nio-8080-exec-5] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"lightfall"}
+2020-06-17 16:02:29 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 4376 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 16:02:29 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 16:02:29 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 16:02:29 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 16:02:29 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-06-17 16:02:30 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 16:02:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:02:30 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 16:02:30 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 16:02:30 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 16:02:30 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 16:02:30 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 16:02:30 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 16:02:30 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 16:02:30 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 893 ms
+2020-06-17 16:02:30 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 16:02:30 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 16:02:30 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 16:02:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:02:30 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 16:02:30 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.82 seconds (JVM running for 2.246)
+2020-06-17 16:02:30 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 16:02:30 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 16:02:30 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-17 16:02:33 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 16:02:34 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 16:02:36 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"root"}
+2020-06-17 16:02:36 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"root"}
+2020-06-17 16:02:36 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"root"}
+2020-06-17 16:04:42 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 2736 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 16:04:42 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 16:04:42 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 16:04:42 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 16:04:42 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-06-17 16:04:43 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 16:04:43 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:04:43 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 16:04:43 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 16:04:43 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 16:04:43 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 16:04:43 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 16:04:43 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 16:04:43 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 16:04:43 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 866 ms
+2020-06-17 16:04:43 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 16:04:43 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 16:04:43 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 16:04:43 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:04:43 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 16:04:43 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.783 seconds (JVM running for 2.238)
+2020-06-17 16:04:43 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 16:04:43 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 16:04:43 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-17 16:04:49 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 16:04:50 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 16:05:00 [http-nio-8080-exec-9] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"root"}
+2020-06-17 16:05:00 [http-nio-8080-exec-9] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"root"}
+2020-06-17 16:05:00 [http-nio-8080-exec-9] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"root"}
+2020-06-17 16:05:41 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 12888 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 16:05:41 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 16:05:41 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 16:05:41 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 16:05:41 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-06-17 16:05:42 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 16:05:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:05:42 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 16:05:42 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 16:05:42 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 16:05:42 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 16:05:42 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 16:05:42 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 16:05:42 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 16:05:42 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 893 ms
+2020-06-17 16:05:42 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 16:05:42 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 16:05:42 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 16:05:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:05:42 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 16:05:42 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.808 seconds (JVM running for 2.264)
+2020-06-17 16:05:42 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 16:05:42 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 16:05:42 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-17 16:05:45 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 16:05:45 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 16:05:48 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"root"}
+2020-06-17 16:05:48 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"root"}
+2020-06-17 16:05:48 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"root"}
+2020-06-17 16:08:12 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 4972 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 16:08:12 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 16:08:13 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 16:08:13 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 16:08:13 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-06-17 16:08:13 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 16:08:13 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:08:13 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 16:08:13 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 16:08:13 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 16:08:13 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 16:08:13 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 16:08:13 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 16:08:13 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 16:08:13 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 895 ms
+2020-06-17 16:08:14 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 16:08:14 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 16:08:14 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 16:08:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:08:14 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 16:08:14 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.777 seconds (JVM running for 2.239)
+2020-06-17 16:08:22 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 16:08:22 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 16:08:22 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-06-17 16:08:27 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 16:08:27 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 16:08:29 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"root"}
+2020-06-17 16:08:29 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"root"}
+2020-06-17 16:08:29 [http-nio-8080-exec-7] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"root"}
+2020-06-17 16:47:50 [main] INFO  com.lightfall.eshop.EshopApplication - Starting EshopApplication on Lightfall with PID 3764 (D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop\target\classes started by 60436 in D:\Workspace\Java\Idea_Repo\EShop-RecommendSys\BookEShop)
+2020-06-17 16:47:50 [main] INFO  com.lightfall.eshop.EshopApplication - No active profile set, falling back to default profiles: default
+2020-06-17 16:47:50 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-17 16:47:50 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-17 16:47:50 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-06-17 16:47:51 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-17 16:47:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:47:51 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 16:47:51 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-17 16:47:51 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 16:47:51 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 16:47:51 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 16:47:51 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 16:47:51 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 16:47:51 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 986 ms
+2020-06-17 16:47:51 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 16:47:51 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-06-17 16:47:51 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-06-17 16:47:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-17 16:47:51 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 16:47:51 [main] INFO  com.lightfall.eshop.EshopApplication - Started EshopApplication in 1.963 seconds (JVM running for 2.46)
+2020-06-17 16:47:55 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 16:47:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 16:47:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-06-17 16:48:06 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-17 16:48:06 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-17 16:48:12 [http-nio-8080-exec-2] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"root"}
+2020-06-17 16:48:12 [http-nio-8080-exec-2] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"root"}
+2020-06-17 16:48:12 [http-nio-8080-exec-2] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"root"}
+2020-06-17 16:56:43 [http-nio-8080-exec-2] INFO  userAction - {"data":{"author":" [美] Randal E. Bryant / [美] David R. O'Hallaron ","price":128.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（英文版·第2版）","bookId":1458},"type":"search","username":"lightfall"}
+2020-06-17 16:56:43 [http-nio-8080-exec-2] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant / David O'Hallaron / 龚奕利 / 雷迎春 ","price":99.00,"publisher":"  机械工业出版社 ","category":1,"bookName":"深入理解计算机系统（原书第2版）","bookId":1461},"type":"search","username":"lightfall"}
+2020-06-17 16:56:43 [http-nio-8080-exec-2] INFO  userAction - {"data":{"author":" （美）Randal E.Bryant, David R.O'Hallaron ","price":89.00,"publisher":"  电子工业出版社 ","category":1,"bookName":"深入理解计算机系统","bookId":1463},"type":"search","username":"lightfall"}
